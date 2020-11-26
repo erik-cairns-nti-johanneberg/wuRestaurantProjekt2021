@@ -39,3 +39,8 @@
     background: yellow;
     grid-area: fo;
 }
+
+.fig_logg > * {
+    max-width: 80px;
+    max-height: auto;
+}
