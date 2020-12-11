@@ -14,7 +14,18 @@
     grid-template-columns: repeat(6, 1fr); /*fixa 1fr sen*/
     grid-template-rows: auto 400px 500px 400px 30px/*fixa 1fr sen*/
 }
+#grid_wrapper_2{
+    display: grid;
+    height: auto;
+    width: 100%;
+    grid-template-areas:
+    'na na na na na na'
+    'a4 a4 a4 a4 a4 a4'
+    'fo fo fo fo fo fo';
 
+    grid-template-columns: auto;
+    grid-template-rows: 57px 100vh 30px;
+}
 
 .na{
     grid-area: na;
@@ -90,8 +101,45 @@ background-color: rgb(235, 229, 229);
     height: 300px;
     padding-top: 35px;
 }
+#grid_wrapper_3{
+    display: grid;
+    height: auto;
+    width: 100%;
+    grid-template-areas:
+    'na na na na na na'
+    'a1 a1 a1 a1 a1 a1'
+    'as as ma ma ma ma'
+    'a3 a3 a2 a2 a2 a2'
+    'fo fo fo fo fo fo';
 
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto 400px 400px 400px  30px;
+}
 
+#box{
+    grid-column-start: 2;
+    background-color: tan;
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+    border-style: double;
+    border-color: springgreen;
+    border-width: 30px;
+    
+}
+.a4{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-area: a4;
+    background-color: crimson;
+    justify-content: center;
+    align-items: center;
+
+}
+.jkweh{
+    padding: 10px;
+    align-items: center;
+}
 .ma{
     background: crimson;
     grid-area: ma;
@@ -143,4 +191,6 @@ background-color: rgb(235, 229, 229);
     grid-template-rows: 1fr 1fr;
 }
 
-
+#mass{
+    font-size: 800px;
+}
