@@ -1,4 +1,6 @@
-*{margin: 0px;}
+*{margin: 0px;
+font-family: Arial, Helvetica, sans-serif;
+}
 
 #grid_wrapper{
     display: grid;
@@ -31,14 +33,14 @@
     grid-area: na;
 }
 
-.listanmelänkar{ 
+.listanmelankar{ 
     list-style: none;
     display: flex;
     justify-content: space-evenly;
     padding: 0;
 }
 
-.listanmelänkar li  {
+.listanmelankar li  {
     display: block;
     background-color: rgb(224, 209, 209);
     width: 25%;
@@ -48,16 +50,16 @@
     padding-bottom: 20px;
 
 }
-.listanmelänkar li a{
+.listanmelankar li a{
     text-decoration: none;
     font-weight: bolder;
     color: black;
     
 }
-.listanmelänkar li:hover{
+.listanmelankar li:hover{
     background-color: rgb(202, 195, 195);
 }
-.listanmelänkar #active{
+.listanmelankar #active{
 background-color: rgb(235, 229, 229);
 }
 
@@ -97,7 +99,7 @@ background-color: rgb(235, 229, 229);
 }
 
 #stor_logg{
-    width: 600px;
+    width: 300px;
     height: 300px;
     padding-top: 35px;
 }
