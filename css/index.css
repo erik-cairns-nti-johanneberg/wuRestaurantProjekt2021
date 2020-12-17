@@ -64,27 +64,33 @@ background-color: rgb(235, 229, 229);
 }
 
 #aside_bild{
-    margin-left: 40px;
-    margin-top: 40px;
-    width: 80%;
+    margin-left: 20px;
+    margin-top: 100px;
+    width: 90%;
 }
 .a3{
     grid-area: a3;
-    background: crimson;
+    background:  rgb(250, 203, 203);
 }
 #annan_bild{
-    width: 85%;
+    width: 83%;
     margin: 30px;
 }
 
+img{
+    border: 4px;
+    border-style: solid;
+    border-color:white ;
+    background: white;
+}
 .a2{
-    background-color: crimson;
+    background-color:   rgb(250, 203, 203);
     grid-area: a2;
     padding: 40px;
 }
 
 .as{
-    background: crimson;
+    background:    rgb(250, 203, 203);
     grid-area: as;
 }
 .a1{
@@ -101,7 +107,7 @@ background-color: rgb(235, 229, 229);
 #stor_logg{
     width: 300px;
     height: 300px;
-    padding-top: 35px;
+    margin-top: 35px;
 }
 #grid_wrapper_3{
     display: grid;
@@ -120,12 +126,12 @@ background-color: rgb(235, 229, 229);
 
 #box{
     grid-column-start: 2;
-    background-color: tan;
+    background-color: rgb(250, 203, 203);
     width: 200px;
     text-align: center;
     padding: 15px;
     border-style: double;
-    border-color: springgreen;
+    border-color: rgb(149, 209, 179);
     border-width: 30px;
     
 }
@@ -133,7 +139,7 @@ background-color: rgb(235, 229, 229);
     display: grid;
     grid-template-columns: 40% 20% 40%;
     grid-area: a4;
-    background-color: crimson;
+    background-color:  rgb(131, 131, 131);
     justify-content: center;
     align-items: center;
 
@@ -143,14 +149,14 @@ background-color: rgb(235, 229, 229);
     align-items: center;
 }
 .ma{
-    background: crimson;
+    background:   rgb(250, 203, 203);
     grid-area: ma;
-    padding: 100px;
+    padding: 80px;
 }
 
 
 .fo{
-    background: yellow;
+    background: rgb(224, 249, 240);
     grid-area: fo;
 }
 
