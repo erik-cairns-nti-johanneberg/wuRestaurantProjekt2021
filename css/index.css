@@ -66,7 +66,12 @@ background-color: rgb(235, 229, 229);
 #aside_bild{
     margin-left: 20px;
     margin-top: 100px;
-    width: 90%;
+    width: 85%;
+}
+.meny_bild{
+    width: 80%;
+    height: 80%;
+    margin-top: 50px;
 }
 .a3{
     grid-area: a3;
@@ -75,6 +80,7 @@ background-color: rgb(235, 229, 229);
 #annan_bild{
     width: 83%;
     margin: 30px;
+    max-height: 80%;
 }
 
 img{
